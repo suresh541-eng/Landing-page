@@ -1,103 +1,211 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .form{
-            display: flex;
-            margin-bottom: 15px;
-        }
-    </style>
+    <title>LiteApp</title>
+    <link rel="stylesheet" href="/mystyle.css">
 </head>
-<body style="background-image: url('https://c4.wallpaperflare.com/wallpaper/752/194/470/circles-highlights-background-form-wallpaper-preview.jpg');background-size: cover;">
-    <h1 style="display: flex;justify-content: center;"><span style="text-decoration-line: underline;">Register Now</span></h1>
-    <div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2xzEjm2T4u--PQCmmI_g1IFVOyqzXy6BdaQ&s');position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);padding: 0px 10%; border-radius: 10px;box-shadow: 5px 5px 5px 5px ;" class="form">
-        <form style="text-align:center;" action="">
 
-        <div style="display: flex;gap: 10px;">
-            <div style="padding: 20px;">
-           <label for="">First Name:</label>
-            <input type="text" placeholder="First Name" required><br><br>
-            </div>
-            <div style="padding: 20px;">
-            <label for="">Last Name:</label>
-            <input type="text" placeholder="Last Name" required><br><br>
-            </div>
+<body>
+    <div class="container">
+
+        <div>
+            <img src="./assets/images/logo/logo.svg" alt="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href=""></a>Career</li>
+                <li><a href=""></a>Blog</li>
+                <li><a href=""></a>contact</li>
+
+            </ul>
         </div>
 
-        
-            <div style="display: flex;gap: 10px;">
-                <div style="padding: 20px;">
-            <label for="">Phone :   </label>
-            <input type="tel" placeholder="Phone" required><br><br>
-                </div>
-
-                <div style="padding: 20px;margin-left: 25px;">
-            <label for="">E-mail</label>
-            <input type="email" placeholder="email" required><br><br>
-                </div>
-            </div>
-
-            <div style="display: flex;gap: 10px;">
-            <div style="padding: 10px;">
-            <label for="">Address :</label>
-            <input type="text" placeholder="Address 1" required><br><br>
-            </div>
-
-            <div style="padding: 10px; margin-left: 15%;">
-                <label for="">Address 2</label>
-            <input type="text" placeholder="Address 2" required><br><br>
-            </div>
-            </div>
-
-            <div style="display: flex;gap: 10px;">
-                <div style="padding: 30px;">
-            <label for="">Birthday:</label>
-            <input type="date" placeholder="DOB" required><br><br>
-                </div>
-                <div style="padding: 30px;margin-left: 40px;">
-                    <label for="">Age  :  </label>
-                    <input type="number" placeholder="age" required><br><br>
-                </div>
-            </div>
-
-
-            <div style="display: flex;gap: 10px;">
-                <div style="padding: 20px;">
-            <label for="">City:</label>
-            <input type="text" placeholder="City" required><br><br>
-                </div>
-                <div style="padding: 20px; margin-left: 40px;">
-            <label for="">Zip Code:</label>
-            <input type="number" placeholder="Zip Code" required><br><br>
-                </div>
-            </div>
-
-            <div style="display: flex;gap: 10px;">
-                <div style="padding: 20px;">
-            <label for="">State:</label>
-            <input type="search" placeholder="State" required><br><br>
-                </div>
-
-                <div style="padding: 20px; margin-left: 40px;">
-            <label for="">Country:</label>
-            <input type="search" placeholder="Country" required><br><br>
-                </div>
-            </div>
-
-
-        </form>
-    </div>
-    <div style="padding: 10px 40px;">
-    <div >
-        <h4 style="position: absolute;top: 110%;">Home Services</h4>
-
     </div>
 
-  <h1>HEL</h1>
-</div>
+    <div class="product">
+        <div class="product-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfSTR5bqosXMz-QjN5GCWjHMLvXrTwpr3H8Q&s"
+                alt="image">
+        </div>
+        <div class="product-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. accumsan
+                lacus vel facilisis.</p>
+        </div> 
     </div>
+</body>
+
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LiteApp Landing</title>
+  <style>
+    * {
+         margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #fff; color: #222; }
+
+    header {
+      background: linear-gradient(to right, #e8ebf1, #0984e3);
+      color: #fff;
+      padding: 1rem 0;
+      color: #0984e3;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      padding: 3rem 0;
+    }
+
+    .hero-text {
+      flex: 1;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero-text h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .store-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .store-buttons button {
+      background: #fff;
+      color: #000;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+    }
+
+    .hero-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Responsive */
+    @media(min-width: 768px) {
+      .hero {
+        flex-direction: row;
+        text-align: left;
+      }
+
+      .hero-text {
+        text-align: left;
+      }
+
+      .store-buttons {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header and Navbar -->
+  <header>
+    <div class="container navbar">
+      <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="logo" width="30">
+        <span>LiteApp</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Career</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container hero" style="background-color: #04132d;">
+      <div class="hero-text">
+        <h1>Showcase Your App With LiteApp</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+        <div class="store-buttons">
+          <button>▶ Play Store</button>
+          <button> App Store</button>
+          <button>🪟 Window Store</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://i.imgur.com/6LP7Z2S.png" alt="App Preview">
+      </div>
+    </div>
+  </header>
+
+  
+
 </body>
 </html>
