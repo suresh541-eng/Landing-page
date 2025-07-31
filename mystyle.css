@@ -38,12 +38,12 @@ ul{
 .product-2{
     width: 50%;
 }  */
-   :root {
+   /* :root {
       --primary: #5567fd;
       --secondary: #24292f;
       --bg: #f9f9fb;
       --text: #333;
-    }
+    } */
     * { box-sizing: border-box; }
     body {
       margin: 0;
@@ -89,6 +89,7 @@ ul{
       align-items: center;
       gap: 2rem;
       padding: 2rem 1rem;
+      padding: 130px 10px;
     }
     .hero-content {
       flex: 1 1 350px;
@@ -124,58 +125,12 @@ ul{
     }
     .hero-img img { width: 95%; max-width: 350px; border-radius: 16px; }
 
-    .features {
-      max-width: 1050px;
-      margin: 3rem auto 0;
-      padding: 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      justify-content: center;
-    }
-    .feature-card {
-      flex: 1 1 200px;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 1px 6px #0001;
-      padding: 2rem 1.2rem;
-      text-align: center;
-      min-width: 180px;
-    }
-    .feature-card i {
-      font-size: 2rem;
-      color: var(--primary);
-      margin-bottom: 0.5rem;
-      display: inline-block;
-    }
-    .feature-title {
-      font-weight: bold;
-      margin-bottom: 0.6rem;
-      color: var(--secondary);
+    .productivity{
+      display: grid;
+      grid-template-columns:repeat(2,1fr);
+      padding: 2rem 1rem;
     }
 
-    .app-section {
-      margin: 4rem 0;
-      padding: 2rem 0;
-      background: #fff;
-      text-align: center;
-    }
-    .app-section img {
-      width: 210px; border-radius: 16px; box-shadow: 0 2px 10px #5567fd22;
-      margin-bottom: 1.1rem;
-    }
-    .app-section h2 {
-      font-size: 1.7rem; color: var(--primary);
-      margin-bottom: 0.7rem;
-    }
-
-    .footer {
-      background: var(--secondary);
-      color: #ddd;
-      text-align: center;
-      padding: 1.4rem;
-      font-size: 1rem;
-    }
 
     /* Mobile Responsive Design */
     @media (max-width: 900px) {
